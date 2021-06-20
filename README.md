@@ -29,7 +29,11 @@ See 00README.txt
 
 ## Author
 
-[hohno-46466](https://github.com/hohno-46466)
+[hohno-46466](https://github.com/hohno-46466) (@hohno_at_kuimc)
+
+# See Also
+
+See also 00README.txt, if prepared.
 
 Mon Aug  5 06:39:45 JST 2019
 Mon Aug  5 07:04:55 JST 2019
