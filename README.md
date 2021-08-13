@@ -41,4 +41,6 @@ See also 00README.txt, if prepared.
 Mon Aug  5 06:39:45 JST 2019
 Mon Aug  5 07:04:55 JST 2019
 
+Note: 	url = https://github.com/hohno-46466/uZone--tools--txt2gmail
+
 -EOF-
