@@ -17,18 +17,13 @@ See 00README.txt
 
 ## Requirement
 
-
 ## Usage
-
 
 ## Installation
 
-
 ## References
 
-
 ## Licence
-
 
 ## Author
 
@@ -42,5 +37,7 @@ Mon Aug  5 06:39:45 JST 2019
 Mon Aug  5 07:04:55 JST 2019
 
 Note: 	url = https://github.com/hohno-46466/uZone--tools--txt2gmail
+
+Note:   url = git@github.com:hohno-46466/uZone--tools--txt2gmail.git
 
 -EOF-
