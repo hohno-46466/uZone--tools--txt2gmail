@@ -56,7 +56,8 @@ if [ $DEBUGLEVEL -gt 2 ]; then
     msmtp=/bin/cat
     msmtpOpt="-n"
 else
-    msmtp=/usr/local/bin/msmtp
+    # msmtp=/usr/local/bin/msmtp
+    msmtp=/usr/bin/msmtp
     msmtpOpt="-d -t"
 fi
 
