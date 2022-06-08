@@ -1,4 +1,4 @@
-#! /bin/sh -eu
+#!/bin/sh -eu
 
 # txt2gmail.sh
 
