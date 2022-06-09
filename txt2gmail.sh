@@ -3,7 +3,8 @@
 # txt2gmail.sh
 
 # First version: Mon Aug  5 08:02:25 JST 2019
-# Last update: Tue Oct 29 14:36:34 JST 2019
+# Prev update: Tue Oct 29 14:36:34 JST 2019
+# Last update: Fri Jun 10 05:33:06 JST 2022
 
 # ----------------------------------------------------------
 
@@ -28,6 +29,11 @@ help () {
 
 help_exit () {
     help
+    exit $1
+}
+
+message_exit () {
+    echo "$2"
     exit $1
 }
 
@@ -57,11 +63,13 @@ if [ $DEBUGLEVEL -gt 2 ]; then
     msmtpOpt="-n"
 else
     # msmtp=/usr/local/bin/msmtp
-    msmtp=/usr/bin/msmtp
+    # msmtp=/usr/bin/msmtp
+    msmtp=$(which msmtp)
     msmtpOpt="-d -t"
 fi
 
-[ -x $msmtp ] || exit 1
+[ "x$msmtp" = "x" ] || message_exit 1 "Can't find msmtp"
+[ -x $msmtp ] || message_exit 1 "Can't find msmtp"
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -101,16 +109,13 @@ if [ $DEBUGLEVEL -ge 2 ]; then
     echo ""
 fi
 
-# exit
-
 (cat << -EOF-;
 To: $USER_TO
 From: $USER_FROM
 Subject: $SUBJECT
 
 -EOF-
- cat ) \
-    | $msmtp $msmtpOpt
+ cat ) | $msmtp $msmtpOpt
 
 exit 0
 
