@@ -20,11 +20,18 @@ git@github.com:hohno-46466/uZone--tools--txt2gmail.git
 
 ## Description
 
-See 00README.txt
+See 00README.txt (if prepared)
 
 ## Requirement
 
+msmtp must be installed and basic settings are prepared.
+
 ## Usage
+
+usage: txt2gmail.sh ([-d [-d [-d ...]]] | [-x]) [-s "subjext"] [mail_addr]
+usage: command | txt2gmail.sh ([-d [-d [-d ...]]] | [-x]) [-s "subjext"] [mail_addr]
+
+example: date | txt2gmail.sh -x -s "test mail" user_1234@example.com
 
 ## Installation
 

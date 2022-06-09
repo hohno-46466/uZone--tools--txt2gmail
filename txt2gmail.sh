@@ -68,8 +68,8 @@ else
     msmtpOpt="-d -t"
 fi
 
-[ "x$msmtp" = "x" ] || message_exit 1 "Can't find msmtp"
-[ -x $msmtp ] || message_exit 1 "Can't find msmtp"
+[ "x$msmtp" = "x" ] && message_exit 1 "Can't find msmtp"
+[ -x $msmtp ] || message_exit 2 "Can't find msmtp"
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
