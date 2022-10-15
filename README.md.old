@@ -8,7 +8,7 @@
      ├──  dot.msmtprc
      └──  txt2gmail.sh
      
-     0 directories, 4 files (Fri Sep  9 06:46:40 JST 2022)
+     0 directories, 4 files (Sat Sep 24 17:45:55 JST 2022)
 
 
 ====

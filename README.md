@@ -2,13 +2,13 @@
 
 ./uZone--tools--txt2gmail
 
-     ./uZone--tools--txt2gmail
+    ./uZone--tools--txt2gmail
      ├──  README.md
      ├──  README.md.old
      ├──  dot.msmtprc
      └──  txt2gmail.sh
      
-     0 directories, 4 files (Sat Sep 24 17:45:55 JST 2022)
+     0 directories, 4 files (Sat Oct 15 22:54:08 JST 2022)
 
 
 ====
