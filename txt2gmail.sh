@@ -3,7 +3,7 @@
 # txt2gmail.sh
 
 # First version: Mon Aug  5 08:02:25 JST 2019
-# Prev update: Tue Oct 29 14:36:34 JST 2019
+# Prev updated: Tue Oct 29 14:36:34 JST 2019
 # Last updated: Fri Jun 10 05:33:06 JST 2022
 
 # ----------------------------------------------------------
