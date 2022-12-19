@@ -6,9 +6,10 @@
      ├──  README.md
      ├──  README.md.old
      ├──  dot.msmtprc
-     └──  txt2gmail.sh
+     ├──  txt2gmail.sh
+     └──  txt2gmail.sh.bak
      
-     0 directories, 4 files (Sun Nov 20 00:11:47 JST 2022)
+     0 directories, 5 files (Mon Dec 19 23:54:37 JST 2022)
 
 
 ====
