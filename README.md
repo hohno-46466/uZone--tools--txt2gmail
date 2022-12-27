@@ -9,7 +9,7 @@
      ├──  txt2gmail.sh
      └──  txt2gmail.sh.bak
      
-     0 directories, 5 files (Thu Dec 22 04:09:42 JST 2022)
+     0 directories, 5 files (Tue Dec 27 22:47:34 JST 2022)
 
 
 ====
